@@ -1,0 +1,43 @@
+﻿l_english:
+
+ # overclocked traits woo-hoo
+ 
+ trait_overclocked_habitability:0
+ trait_overclocked_habitability_desc:0
+ overclocked_habitability_tooltip:0 "Habitability: §G+25%§!"
+ trait_overclocked_miner:0
+ trait_overclocked_miner_desc:0
+ overclocked_miner_tooltip:0 "£minerals£ Minerals from £pops£ Jobs: §G+15%§!"
+ trait_overclocked_farmer:0
+ trait_overclocked_farmer_desc:0
+ overclocked_farmer_tooltip:0 "£food£ Food from £pops£ Jobs: §G+15%§!"
+ trait_overclocked_technician:0
+ trait_overclocked_technician_desc:0
+ overclocked_technicians_tooltip:0 "£energy£ Energy from £pops£ Jobs: §G+15%§!"
+ trait_overclocked_trader:0
+ trait_overclocked_trader_desc:0
+ overclocked_trader_tooltip:0 "£trade_value£ Trade from £pops£ Jobs: §G+25%§!"
+ trait_overclocked_domestic:0
+ trait_overclocked_domestic_desc:0
+ overclocked_domestic_tooltip:0 "£amenities£ Amenities from £pops£ Jobs: §G+15%§!"
+ trait_overclocked_durable:0
+ trait_overclocked_durable_desc:0
+ overclocked_durable_tooltip:0 "Pop Consumer Goods Upkeep: §G-10%§!"
+ trait_overclocked_logic:0
+ trait_overclocked_logic_desc:0
+ overclocked_logic_tooltip:0 "£physics£ Physics Research: §G+10%§!\n£society£ Society Research: §G+10%§!\n£engineering£ Engineering Research: §G+10%§!"
+ trait_overclocked_learning:0 "Meme Mentorship"
+ trait_overclocked_learning_desc:0 "Combination of "
+ overclocked_learning_tooltip:0 "Leader Experience Gain: §G+25%§!"
+ trait_overclocked_propaganda:0
+ trait_overclocked_propaganda_desc:0
+ overclocked_propaganda_tooltip:0 "£unity£ Unity from £pops£ Jobs: §G+10%§!"
+ trait_overclocked_genius:0 "Burning Genius"
+ trait_overclocked_genius_desc:0 "As a computational device, neural network requires immense energy. By supplying more, the network is capable of producing ever greater outputs!"
+ overclocked_genius_tooltip:0 "£physics£ Physics Research: §G+20%§!\n£society£ Society Research: §G+20%§!\n£engineering£ Engineering Research: §G+20%§!"
+ trait_overclocked_assemblers:0 "Faultless Assembly"
+ trait_overclocked_assemblers_desc:0 "Typical assembly process of units had rejection rate of faulty units of 15%. Accepting few faults here and there, more units can be produced in fraction of time."
+ overclocked_assemblers_tooltip:0 "Pop Assembly Speed: §G+30%§!\nPop Housing Usage: §G-10%§!"
+ trait_overclocked_robust:0
+ trait_overclocked_robust_desc:0
+ overclocked_robust_tooltip:0 "Habitability: §G+30%§!\nResources from Jobs: §G+5%§!"

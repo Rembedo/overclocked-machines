@@ -1,0 +1,12 @@
+lesser_consequences_cost = {
+	base = 1
+	complex_trigger_modifier = {
+		trigger = resource_income_compare
+		parameters = {
+			resource = unity
+		}
+		mode = add
+	}
+	abs = yes
+	divide = 3
+}

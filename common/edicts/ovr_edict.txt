@@ -1,0 +1,41 @@
+@Edict1Cost = 10
+@Edict2Cost = 20
+@Edict3Cost = 30
+@EdictSpecialCost = 1
+
+@EdictPerpetual = -1
+
+burn_the_metal = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	edict_lock_in_months = 60
+
+	resources = {
+		category = edicts_unscaled
+		cost = {
+			unity = @EdictSpecialCost
+			multiplier = value:lesser_consequences_cost
+		}
+		upkeep = {
+			unity = @EdictSpecialCost
+			multiplier = value:lesser_consequences_cost
+		}
+	}
+
+	modifier = {
+		custom_tooltip = "edict_burn_the_metal_effects"
+		show_only_custom_tooltip = no
+		planet_pops_robotics_upkeep_mult = 1
+	}
+
+	potential = {
+		has_origin = origin_overclocked_machines
+	}
+
+	allow = { }
+
+	ai_weight = {
+		weight = 0
+	}
+}

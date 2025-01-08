@@ -1,0 +1,17 @@
+#this = species, from = country
+can_add_overclocked_machines_traits = {
+	hidden_trigger = { exists = from }
+	from = { has_origin = origin_overclocked_machines }
+}
+
+#this = species, from = country
+can_remove_overclocked_machines_traits = {
+	hidden_trigger = { exists = from }
+	from = {
+		OR = {
+			has_tradition = tr_synthetics_adopt
+			has_tradition = tr_modularity_5
+			has_origin = origin_overclocked_machines
+		}
+	}
+}

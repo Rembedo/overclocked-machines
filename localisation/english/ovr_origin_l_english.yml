@@ -1,0 +1,9 @@
+﻿l_english:
+
+ # origin words
+
+ origin_overclocked_machines:0 "Overclocked"
+ origin_overclocked_machines_desc:1 "This machine species was created augmented with reckless abandon, ignoring the risks, ingoring the long term usage. After all, it is better to burn brightly than fade away into obscurity."
+ origin_overclocked_machines_effects:1 "Starts with advanced machine traits available, which are stronger and cheaper than normal traits, but carry additional risks."
+ START_SCREEN_OVERCLOCKED_MACHINE:1 "As far as our data banks reach, we were created with planned obsolescence. Too powerful cores for machinery frying circuits, limbs breaking off mid-usage. But to prosper we require strength, speed and processing power - now. We are built on the principle of unrestrained augmentation of our mechanical forms. These powers allowed us to discover [GetStartingDrivePlural] and reach for the stars. There, we shall prosper!"
+ origin_tooltip_overclocked_machines_effects:4 "- $SPECIES_TRAITS$ Access to Overclocked Traits$NEW_LINE$- Overclocked Traits:$TABBED_NEW_LINE$- Can be boosted by the ['edict:burn_the_metal'] Edict$TABBED_NEW_LINE$- Can be added and removed through §IMechanical Modification§!"

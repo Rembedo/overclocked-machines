@@ -1,0 +1,594 @@
+trait_overclocked_habitability = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_habitability_tooltip
+	triggered_planet_growth_habitability_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		pop_environment_tolerance = 0.20
+	}
+	triggered_planet_growth_habitability_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		pop_environment_tolerance = 0.40
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_miner = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_miner_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		planet_jobs_minerals_produces_mult = 0.15
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		planet_jobs_minerals_produces_mult = 0.30
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_farmer = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_farmer_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		planet_jobs_food_produces_mult = 0.15
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		planet_jobs_food_produces_mult = 0.30
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_technician = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_technicians_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		planet_jobs_energy_produces_mult = 0.15
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		planet_jobs_energy_produces_mult = 0.30
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_trader = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_trader_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		pop_job_trade_mult = 0.25
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		pop_job_trade_mult = 0.50
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_domestic = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_domestic_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		pop_job_amenities_mult = 0.15
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		pop_job_amenities_mult = 0.30
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_durable = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_durable_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		planet_pops_consumer_goods_upkeep_mult = -0.10
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		planet_pops_consumer_goods_upkeep_mult = -0.20
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_logic = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_logic_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		planet_jobs_physics_research_produces_mult = 0.1
+		planet_jobs_society_research_produces_mult = 0.1
+		planet_jobs_engineering_research_produces_mult = 0.1
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		planet_jobs_physics_research_produces_mult = 0.2
+		planet_jobs_society_research_produces_mult = 0.2
+		planet_jobs_engineering_research_produces_mult = 0.2
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_learning = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_learning_tooltip
+	triggered_leader_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		species_leader_exp_gain = 0.30
+	}
+	triggered_leader_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		species_leader_exp_gain = 0.60
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_propaganda = {
+	cost = 1
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_propaganda_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		planet_jobs_unity_produces_mult = 0.1
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		planet_jobs_unity_produces_mult = 0.2
+	}
+	modifier = {
+		leader_lifespan_add = -10
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_genius = {
+	cost = 2
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_genius_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		planet_jobs_physics_research_produces_mult = 0.2
+		planet_jobs_society_research_produces_mult = 0.2
+		planet_jobs_engineering_research_produces_mult = 0.2
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		planet_jobs_physics_research_produces_mult = 0.4
+		planet_jobs_society_research_produces_mult = 0.4
+		planet_jobs_engineering_research_produces_mult = 0.4
+	}
+	modifier = {
+		leader_lifespan_add = -20
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_assemblers = {
+	cost = 2
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_assemblers_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		pop_housing_usage_mult = -0.1
+	}
+	triggered_planet_growth_habitability_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		planet_pop_assembly_mult = 0.3
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		pop_housing_usage_mult = -0.2
+	}
+	triggered_planet_growth_habitability_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		planet_pop_assembly_mult = 0.6
+	}
+	modifier = {
+		leader_lifespan_add = -30
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_overclocked_robust = {
+	cost = 3
+    category = robotic
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = {
+		"trait_robot_immortality"
+
+	}
+	allowed_origins = { origin_overclocked_machines }
+	randomized = no
+	species_potential_add = {
+		can_add_overclocked_machines_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_overclocked_machines_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	
+	custom_tooltip_with_modifiers = overclocked_robust_tooltip
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		planet_jobs_produces_mult = 0.05
+	}
+	triggered_planet_growth_habitability_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { NOT = { has_edict = burn_the_metal } }
+		}
+		pop_environment_tolerance = 0.30
+	}
+	triggered_pop_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		planet_jobs_produces_mult = 0.1
+	}
+	triggered_planet_growth_habitability_modifier = {
+		potential = {
+			exists = fromfrom
+			fromfrom = { has_edict = burn_the_metal }
+		}
+		pop_environment_tolerance = 0.60
+	}
+	modifier = {
+		leader_lifespan_add = -30
+	}
+	slave_cost = {
+		energy = 1000
+	}
+}
